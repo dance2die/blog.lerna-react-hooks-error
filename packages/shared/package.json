@@ -6,11 +6,8 @@
   "license": "MIT",
   "main": "lib/shared.js",
   "scripts": {
+    "start": "babel src/shared.js --out-file lib/shared.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "devDependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
   },
   "peerDependencies": {
     "react": "^16.8.3",
@@ -22,5 +19,12 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
 }
