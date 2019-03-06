@@ -15,13 +15,13 @@ function App() {
       <div>
         <label>Shared value => {shared}</label>
       </div>
-      {/* <section>
+      <section>
         <div>
           <label>Count: {count}</label>
         </div>
         <button onClick={() => setCount(count + 1)}>+</button>
         <button onClick={() => setCount(count - 1)}>-</button>
-      </section> */}
+      </section>
     </div>
   );
 }
