@@ -1,0 +1,26 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "description": "shared library within monorepo",
+  "author": "dance2die <sungmkim80@gmail.com>",
+  "license": "MIT",
+  "main": "lib/shared.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
+}
